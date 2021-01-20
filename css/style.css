@@ -181,7 +181,6 @@ header .top {
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
-    margin-left: 3rem;
     font-size: 1.2rem;
     color: var(--color-secondary-grey);
 }
