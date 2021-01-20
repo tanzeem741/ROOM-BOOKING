@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>hotel</title>
+    <script src="https://kit.fontawesome.com/6e14e70ff5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.2/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.2/assets/owl.theme.default.min.css" />
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="top d-flex justify-content-center flex-row flex-wrap px-5">
+            <div class="address text-center">
+                <div class="address__heading"><i class="fa fa-map-signs mr-1"></i>410 missoure St,
+                    Indianapolis,
+                    IN 46225,
+                    USA <i class="fas fa-phone-alt ml-4 mr-1"></i>1779 988 2000 </div>
+            </div>
+            <div class="follow address__heading"><i class="fab fa-facebook-f "></i><i class="fab fa-twitter"></i><i
+                    class="fab fa-instagram"></i><i class="fab fa-google-plus-g"></i>
+            </div>
+        </div>
+        <nav class="navbar bg-white navbar-expand-lg d-flex justify-content-between"><a class="navbar-brand"
+                href="index.html">HOTEL<br /><span class="heading__span">arena</span></a><button class="navbar-toggler"
+                type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link  active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="room.html">Room</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+                <a href="#" class="book__now ml-auto" style="margin-right:3rem;">book now</a>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <form class="center form p-3 mt-lg-5 m-2">
+                    <div class="form-row py-2">
+                        <div class="col">
+                            <label for="checkin"><i class="far fa-calendar-alt mr-2"></i>Check In</label>
+                            <input type="text" id="checkin" class="form-control" placeholder="23/11/2019">
+                        </div>
+                        <div class="col">
+                            <label for="checkout"> <i class="far fa-calendar-alt mr-2"></i>Check Out </label>
+                            <input type="text" id="checkout" class="form-control" placeholder="30/11/2019">
+                        </div>
+                    </div>
+                    <div class="form-row py-2">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="adults"><i class="far fa-user mr-2"></i>Adults</label>
+                                <select class="form-control" id="adults">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="kids"><i class="fas fa-child mr-2"></i>Kids</label>
+                                <select class="form-control" id="kids">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row py-2">
+                        <div class="form-group">
+                            <label for="email"><i class="far fa-envelope mr-2"></i>Email address</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                placeholder="Your Email Address">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                    </div>
+                    <div class="form-row py-2">
+                        <div class="form-group">
+                            <label for="contact"><i class="fas fa-phone-alt mr-2"></i>Contact No.</label>
+                            <br />
+                            <input id="contact" class="form-control" type="text" placeholder="Your Contact Number">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <a href="#" class="book__now ml-2">CHECK AVAILABILITY</a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <section id="special-offer">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h1 class="heading__primary">grab the special offer </h1>
+                    <p class="para__primary">get 20% off ! use coupon code <span class="code">#off20</span><a href="#"
+                            class="book__now book__now--round mt-3 mb-2 ml-5">book now</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-aboutUs" class="py-5">
+        <div class="container d-flex flex-wrap  justify-content-center">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div><img src="img/aboutus.jpeg" alt="aboutUsPhoto" class="img-fluid"></div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 mt-4">
+                    <h1 class="heading__primary">welcome to hotel arena</h1>
+                    <h2 class="para__primary" style="font-size:1rem;">raising comfort to highest level</h2>
+                    <div class="ml-5">
+                        <p class="para__secondary my-3">The Hotel arena is the right choice for visitors who are
+                            searching for a combination of charm and a convenient position from where to explore
+                            surroundings.</p>
+                        <p class="para__secondary">The rooms are arranged upto 10 floor . On the top floor,
+                            there is also a charming terrace or solarium available for the use of guests,
+                            from where you can enjoy the view.</p><a href="about.html"
+                            class="book__now book__now--round mt-3 mb-2">read more</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="type-of-room">
+        <div class="container d-flex flex-wrap  justify-content-center py-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">
+                    <div class="box mb-3"><img src="img/bed-1.jpeg" alt="bed-1" class="img-fluid">
+                        <div class="heading__secondary">single room</div>
+                        <div class="description">
+                            <div class="para__secondary pl-2">enjoy the luxury stay !</div>
+                            <div class="book"><a href="room.html" class="book__now">view more</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">
+                    <div class="box mb-3"><img src="img/bed-2.jpeg" alt="bed-1" class="img-fluid">
+                        <div class="heading__secondary">double bed room</div>
+                        <div class="description">
+                            <div class="para__secondary pl-2">enjoy the luxury stay !</div>
+                            <div class="book"><a href="room.html" class="book__now">view more</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">
+                    <div class="box mb-3"><img src="img/bed-3.jpeg" alt="bed-1" class="img-fluid">
+                        <div class="heading__secondary">family room</div>
+                        <div class="description">
+                            <div class="para__secondary pl-2">enjoy the luxury stay !</div>
+                            <div class="book"><a href="room.html" class="book__now">view more</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-features">
+        <div class="container">
+            <div class="features">
+                <h1 class="heading__primary">some features that made us unique</h1>
+                <p class="para__secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae
+                    vel accusantium? </p>
+                <ul class="list">
+                    <li class="list__item"><i class="fa fa-angle-right  overview__location__fontawesome-icon"></i>close
+                        to the
+                        beach</li>
+                    <li class="list__item"><i
+                            class="fa fa-angle-right  overview__location__fontawesome-icon"></i>breakfast
+                        included</li>
+                    <li class="list__item"><i class="fa fa-angle-right  overview__location__fontawesome-icon"></i>free
+                        airport
+                        shuttle</li>
+                    <li class="list__item"><i class="fa fa-angle-right  overview__location__fontawesome-icon"></i>free
+                        wifi </li>
+                    <li class="list__item"><i class="fa fa-angle-right  overview__location__fontawesome-icon"></i>air
+                        conditioning
+                        and heating</li>
+                    <li class="list__item"><i class="fa fa-angle-right  overview__location__fontawesome-icon"></i>pets
+                        allowed
+                    </li>
+                    <li class="list__item"><i class="fa fa-angle-right  overview__location__fontawesome-icon"></i>we
+                        speak all
+                        language</li>
+                    <li class="list__item"><i
+                            class="fa fa-angle-right  overview__location__fontawesome-icon"></i>perfect for
+                        families</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-testimonials py-5 px-3">
+        <div class="d-flex flex-wrap jusify-content-center">
+            <div class="col-12 col-md-4">
+                <div class="testimonial__box my-3"><img src="img/testimonial-1.jpeg" alt="testimonial-1"
+                        class="img-fluid">
+                    <div class="ml-2">
+                        <p class="para__secondary mb-1">Lorem ipsum dolor sit amet consectetur
+                            adipisicing odit? Aliquid,
+                            accusantium.</p>
+                        <h2 class="heading__secondary"><i class="fas fa-minus mr-1"></i>eliza</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="testimonial__box my-3"><img src="img/testimonial-2.jpeg" alt="testimonial-1"
+                                    class="img-fluid">
+                                <div class="ml-2">
+                                    <p class="para__secondary mb-1">Lorem ipsum dolor sit amet
+                                        consectetur adipisicing odit? Aliquid,
+                                        accusantium.</p>
+                                    <h2 class="heading__secondary"><i class="fas fa-minus mr-1"></i>john
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial__box my-3"><img src="img/testimonial-4.jpeg" alt="testimonial-1"
+                                    class="img-fluid">
+                                <div class="ml-2">
+                                    <p class="para__secondary mb-1">Lorem ipsum dolor sit amet
+                                        consectetur adipisicing odit? Aliquid,
+                                        accusantium.</p>
+                                    <h2 class="heading__secondary"><i class="fas fa-minus mr-1"></i>tony
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="testimonial__box my-3"><img src="img/testimonial-3.jpeg" alt="testimonial-1"
+                        class="img-fluid">
+                    <div class="ml-2">
+                        <p class="para__secondary mb-1">Lorem ipsum dolor sit amet consectetur
+                            adipisicing odit? Aliquid,
+                            accusantium.</p>
+                        <h2 class="heading__secondary"><i class="fas fa-minus mr-1"></i>chreyl</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col">
+                    <h1 class="heading__primary text-center">subscribe to our newsletter</h1>
+                    <form>
+                        <div class="form-row justify-content-center">
+                            <div class="col-auto w-50">
+                                <input type="text" class="form-control" placeholder="Enter Your Email">
+                            </div>
+                            <div class="col-auto">
+                                <button type="submit" class="btn btn__newsletter"
+                                    style="border-radius:0 !important;">subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row pt-5 border-top">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mb-5">
+                    <h1 class="heading__primary">hotel arena</h1>
+                    <p class="para__secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+                        repudiandae minima animi veritatis quasi blanditiis at esse cumque vero similique.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mb-5">
+                    <h1 class="heading__secondary ">recent post</h1>
+                    <p class="para__secondary" style="font-size:0.8rem;">A Definitive Guide to the Best Dining and
+                        Drinking Venues in
+                        the City
+                    </p>
+                    <p class="para__tertiary" style="margin-top:-1rem;">by calvin hoseph - 21 october, 2019</p>
+
+                    <p class="para__secondary" style="font-size:0.8rem;">A Definitive Guide to the Best Dining and
+                        Drinking Venues in
+                        the City
+                    </p>
+                    <p class="para__tertiary" style="margin-top:-1rem;">by calvin hoseph - 21 october, 2019</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mb-5">
+                    <h1 class="heading__secondary">gallery</h1>
+                    <div class="container p-0">
+                        <div class="row">
+                            <div class="col pr-0">
+                                <div class="card">
+                                    <img class="card-img" src="img/about-image-1.jpeg" alt="Card image">
+                                </div>
+                            </div>
+                            <div class="col pr-0">
+                                <div class="card">
+                                    <img class="card-img" src="img/background-services.jpeg" alt="Card image">
+                                </div>
+                            </div>
+                            <div class="col pr-0">
+                                <div class="card mr-2">
+                                    <img class="card-img" src="img/double-bed-2.jpeg" alt="Card image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row my-2">
+                            <div class="col pr-0">
+                                <div class="card">
+                                    <img class="card-img" src="img/background-room.jpeg" alt="Card image">
+                                </div>
+                            </div>
+                            <div class="col pr-0">
+                                <div class="card">
+                                    <img class="card-img" src="img/about-image-3.jpeg" alt="Card image">
+                                </div>
+                            </div>
+                            <div class="col pr-0">
+                                <div class="card mr-2">
+                                    <img class="card-img" src="img/background-services-section-2.jpeg" alt="Card image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mb-5">
+                    <h2 class="heading__secondary">contact us</h2>
+                    <div class="d-flex justify-content-center flex-column flex-wrap px-5"></div>
+                    <div class="address">
+                        <div class="address__heading my-2"><i class="fa fa-map-signs mr-1"></i>410 missoure St,
+                            Indianapolis,
+                            IN 46225,
+                            USA
+                            <br><i class="fas fa-phone-alt mr-1 my-2"></i>1779 988 2000
+                        </div>
+                    </div>
+                    <div class="follow address__heading my-2"><i class="fab fa-facebook-f "></i><i
+                            class="fab fa-twitter"></i><i class="fab fa-instagram"></i><i
+                            class="fab fa-google-plus-g"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center border-top">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg jusify-content-center">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item"><a class="nav-link  active" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="room.html">Room</a></li>
+                            <li class="nav-item"><a class="nav-link" href="room.html">Gallery</a></li>
+                            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
